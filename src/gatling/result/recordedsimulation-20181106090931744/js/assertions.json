@@ -1,0 +1,10 @@
+{
+  "simulation": "com.decathlon.schema.RecordedSimulation",
+  "simulationId": "recordedsimulation",
+  "start": 1541495371744,
+  "description": "",
+  "scenarios": ["RecordedSimulation"],
+  "assertions": [
+
+  ]
+}
