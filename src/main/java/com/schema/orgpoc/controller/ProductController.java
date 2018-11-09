@@ -1,7 +1,7 @@
-package com.decathlon.offer.schema.orgpoc.controller;
+package com.schema.orgpoc.controller;
 
-import com.decathlon.offer.schema.orgpoc.domain.Product;
-import com.decathlon.offer.schema.orgpoc.service.ProductService;
+import com.schema.orgpoc.domain.Product;
+import com.schema.orgpoc.service.ProductService;
 import com.google.schemaorg.JsonLdSerializer;
 import com.google.schemaorg.JsonLdSyntaxException;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.decathlon.offer.schema.orgpoc.configuration;
+package com.schema.orgpoc.configuration;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.databind.DeserializationFeature;

@@ -1,4 +1,4 @@
-package com.decathlon.schema
+package com.schema
 
 import scala.concurrent.duration._
 
