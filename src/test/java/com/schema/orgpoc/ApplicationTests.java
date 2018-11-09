@@ -1,4 +1,4 @@
-package com.decathlon.offer.schema.orgpoc;
+package com.schema.orgpoc;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

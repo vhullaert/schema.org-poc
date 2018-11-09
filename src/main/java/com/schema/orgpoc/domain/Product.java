@@ -1,4 +1,4 @@
-package com.decathlon.offer.schema.orgpoc.domain;
+package com.schema.orgpoc.domain;
 
 
 import lombok.AllArgsConstructor;

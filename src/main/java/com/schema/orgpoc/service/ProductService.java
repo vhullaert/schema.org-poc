@@ -1,4 +1,4 @@
-package com.decathlon.offer.schema.orgpoc.service;
+package com.schema.orgpoc.service;
 
 import com.google.schemaorg.JsonLdFactory;
 import com.google.schemaorg.core.CoreFactory;
@@ -8,13 +8,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class ProductService {
 
-    public Product buildProduct(com.decathlon.offer.schema.orgpoc.domain.Product product) {
+    public Product buildProduct(com.schema.orgpoc.domain.Product product) {
         //JsonLdSerializer serializer = new JsonLdSerializer(true /* setPrettyPrinting */);
         return
                 CoreFactory.newProductBuilder()
                     .addJsonLdContext(
                             JsonLdFactory.newContextBuilder()
-                                .setBase("http://www.decathlon.com")
+                                .setBase("http://www.google.com")
                                 .build())
                     .addProductID(product.getProductId())
                     .addName(product.getName())

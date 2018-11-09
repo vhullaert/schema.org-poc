@@ -1,4 +1,4 @@
-RUN	com.decathlon.schema.RecordedSimulation	recordedsimulation	1541495371744	 	3.0.0
+RUN	com.schema.RecordedSimulation	recordedsimulation	1541495371744	 	3.0.0
 USER	RecordedSimulation	1	START	1541495372487	1541495372487
 USER	RecordedSimulation	2	START	1541495372490	1541495372490
 USER	RecordedSimulation	3	START	1541495372490	1541495372490
